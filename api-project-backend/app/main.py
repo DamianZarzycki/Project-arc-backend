@@ -29,8 +29,8 @@ app.secret_key = "super secret key"
 
 
 reddit = praw.Reddit(user_agent='Comment Extraction (by /u/damol28)',
-                     client_id='3oWYP_XY8ojX8A',
-                    client_secret='8GUKQK4QPRj-LpoGuor5H6Vcw4U',
+                     client_id='xxxxxxxxxxxxxxxxxxxxxx',
+                    client_secret='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
                    )
 
 # Instantiates a client
@@ -39,7 +39,7 @@ client = language.LanguageServiceClient()
 
 
 
-activationKey = "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"
+activationKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 def sendEmail(email, activationKey):
     user_email = request.args.get('email')
