@@ -1,0 +1,6 @@
+dispatch:
+
+
+  - url: "*/project/v1/*"
+    service: sentimentapi
+
